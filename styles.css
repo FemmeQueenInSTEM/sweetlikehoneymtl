@@ -44,6 +44,7 @@ body {
       background-image: url("./background_desktop.webp");
     }
 
+    padding: 0 32px;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
@@ -58,13 +59,13 @@ h1 {
   }
 }
 h2 {
-  font-size: 2.5em;
-}
-h3 {
   font-size: 2.25em;
 }
-h4 {
+h3 {
   font-size: 2em;
+}
+h4 {
+  font-size: 1.75em;
 }
 h5 {
   font-size: 1.5em;
@@ -86,12 +87,17 @@ a:where(:any-link) {
 
 #heroImage {
   width: 75vw;
-  max-width: 300px;
+  max-width: 250px;
+
+  @media (orientation: landscape) {
+    width: 30vw;
+  }
 }
 
 .heroSection {
   width: 100%;
   max-width: 500px;
+  margin-top: 4svh;
   padding: 0 2.5vw;
 
   display: flex;
@@ -153,7 +159,6 @@ main {
   margin-bottom: 16px;
 
   @media (orientation: landscape) {
-    font-size: 2em;
     margin-bottom: 32px;
     margin-top: 32px;
   }
@@ -166,16 +171,20 @@ main {
 
   article {
     width: 80vw;
-    max-width: 500px;
+    max-width: 300px;
   }
 
   @media (orientation: landscape) {
     margin-bottom: 32px;
-    padding: 0 32px;
 
     &::after {
       content: "More to be announced…";
       opacity: 0.5;
+    }
+
+    article {
+      width: 40svw;
+      max-width: 400px;
     }
   }
 }
