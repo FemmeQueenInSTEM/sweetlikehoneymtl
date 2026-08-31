@@ -9,8 +9,10 @@
 
     <style>
       body {
-        background-color: #2a120e;
-        color: #ecd6d9;
+        --white: #ecd6d9;
+        --bkg-color: #2a120e;
+        background-color: var(--bkg-color);
+        color: var(--white);
       }
     </style>
     <link rel="stylesheet" type="text/css" href="josh-comeau-reset.css" />
@@ -79,7 +81,25 @@
 
       <div class="posters">
         <article>
-          <img src="posters/26-09-06_hoochieland.jpg" />
+          <img
+            src="posters/26-09-06_hoochieland.jpg"
+            alt="Sweet Like Honey presents: Hoochieland: Birthday Bash. Sunday September 6, 2026, 8pm - 1am, Ausgang Plaza, 6524 rue St-Hubert, Montreal, QC, H2S 2M3"
+          />
+          <div class="eventDescription">
+            <h4>Hoochieland</h4>
+            <p>
+              <span>Sunday, September 6, 2026, 8pm - 1am</span>
+              <span>Ausgang Plaza</span>
+              <span>6524 rue St-Hubert, Montréal, QC, H2S 2M3</span>
+            </p>
+            <a
+              class="ticketLink"
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://lepointdevente.com/billets/xd0260906001"
+              ><span>Buy a ticket</span></a
+            >
+          </div>
         </article>
         <article>
           <video controls>
@@ -88,13 +108,23 @@
               type="video/webm"
             />
           </video>
+          <div class="eventDescription">
+            <h4>Kiki Ball</h4>
+            <p>
+              <span>Sunday, October 11, 2026</span>
+              <span>More details TBA</span>
+            </p>
+            <!--<button class="ticketLink" disabled>
+              Tickets not yet available
+            </button>-->
+          </div>
         </article>
       </div>
     </main>
     <footer class="mobileFooter">
       <p class="author">
-        Website made by hand with
-        <span role="img" aria-label="love">❤️</span> by
+        Website made by hand, with
+        <span role="img" aria-label="love">❤️</span>, by
         <a rel="noopener noreferrer" target="_blank" href="https://zawadi.world"
           >Zawadi</a
         >.

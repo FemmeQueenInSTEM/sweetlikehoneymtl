@@ -54,32 +54,20 @@ h1 {
   font-family: Agbalumo;
   font-size: 3.5em;
   @media (orientation: landscape) {
-    font-size: 5em;
+    font-size: 4em;
   }
 }
 h2 {
   font-size: 2.5em;
-  @media (orientation: landscape) {
-    font-size: 4.5em;
-  }
 }
 h3 {
   font-size: 2.25em;
-  @media (orientation: landscape) {
-    font-size: 4em;
-  }
 }
 h4 {
   font-size: 2em;
-  @media (orientation: landscape) {
-    font-size: 3em;
-  }
 }
 h5 {
   font-size: 1.5em;
-  @media (orientation: landscape) {
-    font-size: 2em;
-  }
 }
 h6 {
   font-size: 1em;
@@ -92,7 +80,7 @@ button {
 }
 
 a:where(:visited),
-a:any-link {
+a:where(:any-link) {
   color: inherit;
 }
 
@@ -188,6 +176,47 @@ main {
     &::after {
       content: "More to be announced…";
       opacity: 0.5;
+    }
+  }
+}
+
+.eventDescription {
+  margin: 16px 0 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  p {
+    line-height: 1.2;
+  }
+
+  p span {
+    display: block;
+  }
+}
+
+.ticketLink {
+  border-radius: 6px;
+  margin: 12px 0;
+
+  padding: 4px 8px;
+  background-color: var(--white);
+  color: var(--bkg-color);
+
+  text-decoration: none;
+  font-weight: 650;
+
+  &:disabled {
+    opacity: 0.75;
+    cursor: not-allowed;
+  }
+
+  @media (hover: hover) {
+    transition: transform 100ms ease-in-out;
+
+    &:not(:disabled):hover {
+      transform: scale(1.1);
     }
   }
 }
