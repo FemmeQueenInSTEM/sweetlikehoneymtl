@@ -200,7 +200,7 @@ main {
     line-height: 1.2;
   }
 
-  p span {
+  p > * {
     display: block;
   }
 }
@@ -218,7 +218,6 @@ main {
 
   &:disabled {
     opacity: 0.75;
-    cursor: not-allowed;
   }
 
   @media (hover: hover) {
