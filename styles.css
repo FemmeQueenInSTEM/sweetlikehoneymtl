@@ -73,6 +73,17 @@ a:where(:any-link) {
   color: inherit;
 }
 
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 12px 0;
+
+  .button {
+    margin: 0;
+  }
+}
+
 .button {
   border-radius: 8px;
   margin: 12px 0;
@@ -86,6 +97,11 @@ a:where(:any-link) {
 
   &:disabled {
     opacity: 0.75;
+  }
+
+  &.secondary {
+    background-color: oklch(from var(--white) l c h / 0.1);
+    color: var(--white);
   }
 
   @media (hover: hover) {
