@@ -1,0 +1,165 @@
+body {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+
+  @media (orientation: landscape) {
+    padding: 0 32px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+#heroImage {
+  width: 75vw;
+  max-width: 250px;
+
+  @media (orientation: landscape) {
+    width: 30vw;
+  }
+}
+
+.heroSection {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 4svh;
+  padding: 0 2.5vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  @media (orientation: landscape) {
+    position: sticky;
+    top: 0;
+
+    padding: 0;
+    height: 100svh;
+    width: 40svw;
+
+    justify-content: center;
+  }
+}
+
+.logo {
+  margin-top: 32px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-family: Agbalumo;
+    line-height: 1;
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+
+  @media (orientation: landscape) {
+    margin-top: 0;
+
+    h1 {
+      margin-top: 16px;
+      margin-bottom: 32px;
+    }
+  }
+}
+
+main {
+  padding: 0 2.5vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  @media (orientation: landscape) {
+    padding: 0;
+    min-height: 100svh;
+    justify-content: center;
+  }
+}
+
+#upcomingEventsTitle {
+  margin-bottom: 16px;
+
+  @media (orientation: landscape) {
+    margin-bottom: 32px;
+    margin-top: 32px;
+  }
+}
+
+.posters {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  article {
+    width: 80vw;
+    max-width: 300px;
+  }
+
+  @media (orientation: landscape) {
+    margin-bottom: 32px;
+
+    &::after {
+      content: "More to be announced…";
+      opacity: 0.5;
+    }
+
+    article {
+      width: 40svw;
+      max-width: 400px;
+    }
+  }
+}
+
+.eventDescription {
+  margin: 16px 0 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  p {
+    line-height: 1.2;
+  }
+
+  p > * {
+    display: block;
+  }
+}
+
+footer {
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+
+  p {
+    font-style: italic;
+  }
+
+  &.mobileFooter {
+    height: 200px;
+  }
+
+  &.desktopFooter {
+    display: none;
+    height: 100px;
+  }
+
+  @media (orientation: landscape) {
+    &.mobileFooter {
+      display: none;
+    }
+
+    &.desktopFooter {
+      display: flex;
+    }
+  }
+}

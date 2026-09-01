@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  padding: 32px 5vw;
+  max-width: 800px;
+}
+
+.headerLink {
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  img {
+    width: 1.5lh;
+  }
+
+  span {
+    font-family: Agbalumo;
+    font-size: 1.5rem;
+  }
+}
+
+main {
+  flex: 1;
+  padding: 0 2.5vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  @media (orientation: landscape) {
+    padding-top: 15svh;
+  }
+}
