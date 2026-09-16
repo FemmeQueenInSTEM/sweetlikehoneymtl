@@ -1,0 +1,68 @@
+body > * {
+  animation: 500ms ease-out calc(500ms * sibling-index()) backwards fade-in;
+}
+
+.heroSection,
+.ticketsAndInfoSection {
+  padding: 0 var(--safeAreaHorizontal);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  text-align: center;
+}
+
+.heroSection {
+  margin-top: 5vh;
+  height: 30vh;
+  padding: 0 var(--safeAreaHorizontal);
+
+  img {
+    width: 100%;
+  }
+}
+
+.descendButton {
+  margin-top: 5vh;
+
+  background: none;
+  border: none;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+  color: var(--white);
+  font-weight: bold;
+}
+
+.pointingHand {
+  font-size: 4rem;
+
+  will-change: transform;
+  animation: 2.5s ease-in-out 0s infinite alternate floating;
+}
+
+@keyframes floating {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(30%);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
