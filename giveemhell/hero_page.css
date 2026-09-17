@@ -24,6 +24,8 @@ body {
 .heroSection,
 .ticketsAndInfoSection {
   padding: 0 var(--safeAreaHorizontal);
+  width: 100%;
+  max-width: 1200px;
 
   display: flex;
   flex-direction: column;
@@ -36,7 +38,7 @@ body {
 
 .heroSection {
   margin-top: 5vh;
-  height: 30vh;
+  min-height: min(30vh, 15lh);
   padding: 0 var(--safeAreaHorizontal);
 
   img {
@@ -184,7 +186,7 @@ body {
   justify-content: center;
 }
 
-.categoryLinks {
+#categoryLinks {
   display: flex;
   flex-direction: column;
   align-items: center;

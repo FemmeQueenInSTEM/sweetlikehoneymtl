@@ -6,7 +6,7 @@
 
     <link rel="preload" as="style" href="../josh-comeau-reset.css" />
     <link rel="preload" as="style" href="hellstyles.css" />
-    <link rel="preload" as="style" href="hero_page.css" />
+    <link rel="preload" as="style" href="category.css" />
 
     <style>
       body {
@@ -19,7 +19,7 @@
     </style>
     <link rel="stylesheet" type="text/css" href="../josh-comeau-reset.css" />
     <link rel="stylesheet" type="text/css" href="hellstyles.css" />
-    <link rel="stylesheet" type="text/css" href="hero_page.css" />
+    <link rel="stylesheet" type="text/css" href="category.css" />
 
     <link rel="icon" href="../favicon.ico" sizes="32x32" />
 
@@ -61,64 +61,29 @@
     />
   </head>
   <body>
-    <div class="heroArea">
-      <div class="heroSection">
-        <span>Sweet Like Honey Presents</span>
-        <img src="./hero_title.svg" />
-        <span>A Kiki Ball</span>
-      </div>
-      <div class="ticketsAndInfoSection">
-        <p class="dateAndLocation">
-          Sunday, October 11, 2026<br />
-          Ausgang Plaza, Montréal, QC
-        </p>
-        <div class="buttons">
-          <a
-            class="button"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://docs.google.com/forms/d/e/1FAIpQLScORpeq3m3k2UsPwRKJqea0tOYUh-a4WQa7qOoOyMRgA3a89A/viewform"
-            ><span>Get a discount</span></a
-          >
-          <a
-            class="button"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://lepointdevente.com/billets/xd0260908002"
-            ><span>Buy your ticket</span></a
-          >
-        </div>
-      </div>
+    <h1 id="categoryName"></h1>
+    <div id="categoryDescription"></div>
+    <div id="lookbook" class="carousel"></div>
+    <a id="backButton" class="button" href="/giveemhell/#categories">
+      <svg
+        width="20px"
+        height="20px"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        color="#ffffff"
+      >
+        <path
+          d="M21 12L3 12M3 12L11.5 3.5M3 12L11.5 20.5"
+          stroke="#ffffff"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+      </svg>
+      Other categories</a
+    >
 
-      <!-- TODO: Scroll down when you click this button -->
-      <button class="descendButton">
-        <span>Categories</span>
-        <span class="pointingHand">👇🏿</span>
-      </button>
-    </div>
-    <div class="flamesArea">
-      <!--
-        Credit to Simon Goellner for this flame effect. I most definitely could not come up with this on my own. -Zawadi
-
-        Codepen: https://codepen.io/simeydotme/pen/PoyzbPM
-        GitHub: https://github.com/simeydotme
-      -->
-
-      <p class="verse">
-        “Enter through the narrow gate. For wide is the gate and broad is the
-        road that leads to destruction, and many enter through it.”
-      </p>
-      <p><strong>Matthew 7:13-14</strong></p>
-    </div>
-    <div class="whiteBkg">
-      <div id="categories" class="categoryArea">
-        <p class="verse">
-          Explore the plights of the damned who have only found destruction.
-        </p>
-        <nav id="categoryLinks"></nav>
-      </div>
-    </div>
-
-    <script type="module" src="./index.js"></script>
+    <script src="./category.js" type="module"></script>
   </body>
 </html>

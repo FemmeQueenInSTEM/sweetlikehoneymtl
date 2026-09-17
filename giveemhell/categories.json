@@ -1,0 +1,181 @@
+{
+  "nailsaffair": {
+    "name": "Nails Affair",
+    "description": [
+      "In the Roman Catholic tradition, the first known murder was the murder of Abel by the hands of his brother, Cain.",
+      "Convince the judges that there might be a twist to the story. As they say — caught red handed!",
+      "<strong>Bring it with your nails as the weapons.</strong>"
+    ]
+  },
+  "face": {
+    "name": "Face",
+    "description": [
+      "“Your heart became proud on account of your beauty, and you corrupted your wisdom because of your splendor. So I threw you to the earth.”",
+      "Ezekiel 28:17",
+      "<strong>Bring it as a fallen angel.</strong>"
+    ],
+    "lookbook": [
+      "https://i.pinimg.com/736x/98/e6/bf/98e6bf3423dac3dd9558488a51b6ae27.jpg",
+      "https://i.pinimg.com/736x/1b/d5/d0/1bd5d067e321eacbb18fe6ab269c0681.jpg",
+      "https://i.pinimg.com/736x/15/1d/37/151d37e2ea90c2c30b3bf258266de0ec.jpg",
+      "https://i.pinimg.com/1200x/e3/75/99/e37599d0497129421de875b59c63edab.jpg",
+      "https://i.pinimg.com/1200x/96/6d/af/966dafc28e07733e9d8838f809820358.jpg"
+    ]
+  },
+  "realness": {
+    "name": "Realness",
+    "description": [
+      "Before the fall, there was Paradise. Step into the Garden of Eden and show us the innocence, simplicity and divine beauty of the first humans before their descent from paradise.",
+      "Come as your own interpretation of the first inhabitants of Eden.",
+      "<strong>Bring it with an apple in hand.</strong>"
+    ],
+    "lookbook": [
+      "https://i.pinimg.com/736x/a7/3d/34/a73d34d28684f453271f6c4acd160474.jpg",
+      "https://i.pinimg.com/736x/f4/f8/77/f4f8774342239c6c4d0a212ebf580f17.jpg",
+      "https://i.pinimg.com/736x/a5/ca/0b/a5ca0bedce63f3ab639284fbaf95dd97.jpg",
+      "https://i.pinimg.com/1200x/ec/74/99/ec74992ceb81565f152c71794377270e.jpg",
+      "https://i.pinimg.com/736x/c6/24/f4/c624f4d4c9d90cd371a8f795f7b0baf4.jpg",
+      "https://i.pinimg.com/1200x/eb/e5/c4/ebe5c4659f29ac24a038d9c60c4e607b.jpg",
+      "https://i.pinimg.com/736x/ca/a0/4f/caa04fb5e7b4c565f9b05ab623b6f4e0.jpg",
+      "https://i.pinimg.com/736x/60/7a/00/607a009d34fbffd88a00c648936f1ef4.jpg",
+      "https://i.pinimg.com/736x/40/84/32/408432075b79b0750b87674987f70668.jpg"
+    ]
+  },
+  "bgperformance": {
+    "name": "Beginners’ Performance",
+    "description": [
+      "You’ve been through the valley of the shadow of death, gone to hell and made it back.",
+      "<strong>Bring it as in a burnt and charred look.</strong>",
+      "Can you vogue through the night when you’re already burnt out..?"
+    ]
+  },
+  "bgrunway": {
+    "name": "Beginners’ Runway",
+    "description": [
+      "You’ve been lazy in life and your punishment is to keep it pumping.",
+      "<strong>Bring it in loungewear.</strong>"
+    ],
+    "lookbook": [
+      "https://i.pinimg.com/736x/e3/0d/61/e30d614c6f38af74d35016df3ea0d7ec.jpg",
+      "https://i.pinimg.com/736x/a4/2c/45/a42c458da9accac88395a6bafb3b8c7f.jpg",
+      "https://i.pinimg.com/736x/6f/7d/a6/6f7da6ec69b450e75a953c5c312fadb3.jpg",
+      "https://i.pinimg.com/736x/86/33/c7/8633c769ec85361c1baab8e04b969ed8.jpg",
+      "https://i.pinimg.com/1200x/7a/03/73/7a0373f293f910d272d4cbd41687b57f.jpg",
+      "https://i.pinimg.com/736x/b2/b3/4c/b2b34ca16ec9b06d3f6d69e523ba8286.jpg"
+    ]
+  },
+  "body": {
+    "name": "Body",
+    "description": [
+      "In Dante’s Inferno, Cocytus is the ninth and deepest circle of Hell. It is a frozen lake where the souls of traitors are condemned to remain trapped beneath the ice. There is no fire here, only an endless, merciless cold.",
+      "<strong>Bring us a body frozen in the depths of Cocytus.</strong>",
+      "Give us frostbite, cracked skin, bruising and the illusion of a body slowly being consumed by the cold."
+    ],
+    "lookbook": [
+      "https://i.pinimg.com/736x/52/61/f6/5261f6b1fca788e59a1c478c930e8fbe.jpg",
+      "https://i.pinimg.com/1200x/ad/18/09/ad18095b67bd538eb803b57fb7561b92.jpg",
+      "https://i.pinimg.com/736x/9a/1c/3d/9a1c3dc660250d25e5f25a5b0e105979.jpg",
+      "https://i.pinimg.com/736x/1c/e8/28/1ce828288569a66d540c0363e0aebeb8.jpg",
+      "https://i.pinimg.com/736x/fa/8b/98/fa8b98953a2da766c47996258d41750f.jpg",
+      "https://i.pinimg.com/736x/58/1b/84/581b84c19e200a95e185b4547dc54a16.jpg",
+      "https://i.pinimg.com/736x/93/5c/1c/935c1cd1e24cefec9692a9870d55a0c4.jpg",
+      "https://i.pinimg.com/1200x/8c/fc/b6/8cfcb6e497b0ebe9c9eb5f187a096090.jpg",
+      "https://i.pinimg.com/736x/06/7b/72/067b729c6f276fd2e4c0b9a076b8a17a.jpg"
+    ]
+  },
+  "lipsync": {
+    "name": "Lip Sync",
+    "description": [
+      "Harpies work under the gods to punish the ones who’ve offended them or have committed unspeakable acts.",
+      "<strong>Bring it with a song to vocalize your anger.</strong> Show us that you can drag a bitch straight to hell with the power of your words.",
+      "",
+      "Remember to register your song for your 10s by sending an email with your mix attached to <a href='mailto:contact@sweetlikehoneymtl.com?subject=%F0%9F%8E%A4%20YOUR_NAME%20HOUSE_or_007%20%5BLip%20Sync%2010s%5D&body=Hi%20Marlyne%2C%0A%0AI&apos;d%20like%20to%20sing%20this%20song%20(see%20attached)%20for%20my%2010s%20for%20the%20Give%20&apos;Em%20Hell%20Kiki%20Ball%20on%20Sunday%2C%20October%2011.%0A%0ASincerely%2C%0AYOUR_NAME%20HOUSE_or_007'>contact@sweetlikehoneymtl.com</a> by <strong>Friday, October 9, 2026</strong>."
+    ],
+    "lookbook": ["./lip_sync_songs.png"]
+  },
+  "bazaar": {
+    "name": "Bazaar",
+    "description": [
+      "Cerebus is described as the monstrous watchdog of the underworld who diligently served his master, the ruler of hell. After millenia, he needs a break.",
+      "<strong>Bring it as his successor, the new guardian of the gates of hell.</strong>"
+    ],
+    "lookbook": [
+      "https://i.pinimg.com/736x/f3/80/bf/f380bfe4472aad7a17a40840793cf873.jpg",
+      "https://i.pinimg.com/736x/ab/44/63/ab4463d7dfe9402509758feed68baf2e.jpg",
+      "https://i.pinimg.com/736x/b4/68/2b/b4682be434c588898a4efc83b740a115.jpg",
+      "https://i.pinimg.com/736x/c2/1b/38/c21b380d069c50ccb6cbd109c77780b8.jpg",
+      "https://i.pinimg.com/236x/1f/96/50/1f9650f5ec142f880c60ecf6e66eef4f.jpg",
+      "https://i.pinimg.com/1200x/6b/e1/e6/6be1e6a4821d8da2742ace60be220405.jpg",
+      "https://i.pinimg.com/736x/ca/8e/91/ca8e91440b1d2f4d0fa5f36bca0bc84d.jpg"
+    ]
+  },
+  "bestdressed": {
+    "name": "Best Dressed",
+    "description": [
+      "“Opulence! you own everything.”<br/>– Junior LaBeija",
+      "Greed is a deadly sin. More is more and there’s no such thing as enough. Dive into the extravagance.",
+      "<strong>Bring it with an excess of accessories.</strong>"
+    ],
+    "lookbook": [
+      "https://i.pinimg.com/1200x/44/10/4b/44104bc7d4aded19e9ea7502ffddc295.jpg",
+      "https://i.pinimg.com/1200x/12/bb/f0/12bbf04a67dc8e35bd7c07b7eb9dd4aa.jpg",
+      "https://i.pinimg.com/1200x/5d/1e/88/5d1e88e1b548ab427d01586ea7a21654.jpg",
+      "https://i.pinimg.com/736x/2c/b0/25/2cb025a2d76ed3c8e3624a039bc591e3.jpg",
+      "https://i.pinimg.com/1200x/3e/d5/91/3ed591c52c0b782558970f80b6ebf987.jpg",
+      "https://i.pinimg.com/736x/d4/50/60/d45060f4c80d9883512ce6eb20d062c7.jpg",
+      "https://i.pinimg.com/1200x/5e/e9/5d/5ee95d89edb7412fd21ce33689e8d34d.jpg",
+      "https://i.pinimg.com/1200x/85/08/72/850872321f06479399ae2eb07cf8d989.jpg",
+      "https://i.pinimg.com/736x/6c/9b/5c/6c9b5c003286014781fa8cd8cff92851.jpg",
+      "https://i.pinimg.com/736x/e7/38/8d/e7388dbc4ed9f991201979b34905e7c3.jpg",
+      "https://i.pinimg.com/736x/df/07/ae/df07ae0a26b581e26bf94d64ee1f0292.jpg"
+    ]
+  },
+  "commvcomm": {
+    "name": "Commentator vs Commentator",
+    "description": [
+      "Exorcisms have been performed for thousands of years. The girls are POSSESSED, it is your task to make sure no demons is left standing in your vicinity.",
+      "<strong>Bring it with a chant to cast away the most sinister spirits.</strong>"
+    ],
+    "lookbook": []
+  },
+  "performance": {
+    "name": "Performance",
+    "description": [
+      "The holy water was splashed, the prayers were read, and your physical body is fighting to save your soul.",
+      "<strong>Bring it as a person in the midst of an exorcism.</strong> Tell us the story of the demon on its way out."
+    ],
+    "lookbook": [
+      "https://i.pinimg.com/1200x/d6/ae/ee/d6aeee522f6204de798f4b715005bee8.jpg",
+      "https://i.pinimg.com/1200x/88/9c/4e/889c4e5b071fc7f8dfd4ad82a3324593.jpg",
+      "https://i.pinimg.com/1200x/eb/99/14/eb991402876a69ed875f127e33f4262e.jpg",
+      "https://i.pinimg.com/736x/d0/d3/ad/d0d3ad7cf0a5360f00eb69e097c5516e.jpg",
+      "https://i.pinimg.com/1200x/44/2b/77/442b77b4f2fd05af73206e2574e84040.jpg"
+    ]
+  },
+  "runway": {
+    "name": "Runway",
+    "description": [
+      "Death walks among us. You are now tasked to collect the souls of the damned. Show us how you’d escort a sinner out of this world and into the afterlife.",
+      "<strong>Bring it as the Grim Reaper</strong> and pump to collect your next target."
+    ],
+    "lookbook": [
+      "https://i.pinimg.com/736x/c0/cf/26/c0cf26085ea6a1f051ea0ccc9d73e6a7.jpg",
+      "https://i.pinimg.com/1200x/de/fc/2d/defc2dfe8bdfc28fd60e8ce570dfd5dd.jpg",
+      "https://i.pinimg.com/736x/49/62/57/496257591a3f432d0993d3d1869af12b.jpg",
+      "https://i.pinimg.com/736x/de/46/d3/de46d346bb396d30560c3960a9cb0049.jpg",
+      "https://i.pinimg.com/736x/99/d7/e5/99d7e531a9ba3fed24b3117d0e8d3ef2.jpg",
+      "https://i.pinimg.com/736x/ce/28/8c/ce288c52c81a8125af098f7b38ad2d9a.jpg",
+      "https://i.pinimg.com/736x/41/6f/b9/416fb96dbbf58b003e581b456f533d65.jpg",
+      "https://i.pinimg.com/736x/9b/d2/50/9bd2506648f6d25015803d0a454ca50c.jpg",
+      "https://i.pinimg.com/736x/de/db/c3/dedbc3e674302f3cfc305fef465806c2.jpg"
+    ]
+  },
+  "sexsiren": {
+    "name": "Sex Siren",
+    "description": [
+      "You made a vow… and still chose temptation.",
+      "<strong>Tag team with a member of another house</strong>and give us the ultimate forbidden affair. Secret lovers, stolen glances, betrayal, jealousy and sinful chemistry!",
+      "Bring it with the kind of temptation that could send you straight to the Second Circle of Hell."
+    ]
+  }
+}

@@ -89,7 +89,6 @@ a:where(:any-link) {
   }
 
   @media (hover: hover) {
-    border-radius: 6px;
     padding: 4px 12px;
     transition: transform 100ms ease-in-out;
 
