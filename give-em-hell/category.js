@@ -5,6 +5,7 @@ const category_id =
 
 const categoryNameEl = document.getElementById("categoryName");
 categoryNameEl.innerHTML = categories[category_id].name;
+document.title = `${categories[category_id].name} · Give 'Em Hell Kiki Ball`;
 
 let descriptionContent = "";
 categories[category_id].description.forEach((stanza) => {
