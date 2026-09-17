@@ -46,7 +46,7 @@ body {
   }
 }
 
-.descendButton {
+#descendButton {
   margin-top: 5vh;
 
   background: none;

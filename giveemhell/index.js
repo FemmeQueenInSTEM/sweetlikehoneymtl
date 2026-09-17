@@ -7,3 +7,12 @@ Object.entries(categories).forEach(([category_id, category]) => {
 });
 
 document.getElementById("categoryLinks").innerHTML = content;
+
+function scrollToCategories() {
+  const categoryArea = document.getElementById("categories");
+  categoryArea.scrollIntoView({ behavior: "smooth" });
+}
+
+document
+  .getElementById("descendButton")
+  .addEventListener("click", scrollToCategories);
