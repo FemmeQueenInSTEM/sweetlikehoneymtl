@@ -1,4 +1,4 @@
-import categories from "./categories.json";
+import categories from "./categories.json" with { type: "json" };
 
 const category_id =
   new URLSearchParams(document.location.search).get("id") ?? "";
